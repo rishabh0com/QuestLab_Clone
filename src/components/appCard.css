@@ -1,0 +1,51 @@
+.appCount {
+  display: flex;
+  padding: 18px;
+  align-items: center;
+  justify-content: center;
+  align-content: flex-start;
+  gap: 14px;
+  flex-wrap: wrap;
+  border-radius: 12px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 1px solid rgba(169, 163, 194, 0.2);
+  background: #181818;
+  margin: auto;
+}
+.appCard {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  padding: 11.556px 11.556px 11.555px 11.556px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9.41px;
+  background: #323232;
+}
+.menuItem {
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  border: 1px solid rgba(169, 163, 194, 0.2);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  position: absolute;
+}
+/* .compCont{
+    display: flex;
+    flex-direction: row;
+    margin-top: 165px;
+    gap: 24px;
+} */

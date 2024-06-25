@@ -1,0 +1,19 @@
+.compCont {
+  display: flex;
+  flex-direction: row;
+  margin-top: 165px;
+  gap: 24px;
+}
+.compCard {
+  border-radius: 16px;
+  border: 1.5px solid #535353;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+.hoverBg{
+    background: url(../assets/hoverBg.png);
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 16px;
+}

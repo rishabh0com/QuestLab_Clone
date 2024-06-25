@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  font-family: "Figtree", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+body {
+  background-color: #121212;
+  max-width: 100%;
+}
+
+.main {
+  margin-top: 100px;
+  background-image: url(./assets/Pattern-smV21Nn4.svg),
+    url(./assets/download.svg);
+  background-size: 90%, 130% 110%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 50% 200px, center;
+  width: 100%;
+}
+.mainImg {
+  margin-top: 50px;
+}
