@@ -23,7 +23,7 @@ import outer12 from "../assets/dataResourceIcon/outer12.svg";
 
 const DataResource = () => {
   return (
-    <div className="py-24 mt-20 text-white overflow-hidden">
+    <div className="py-24 mt-20 text-white overflow-hidden ">
       <div className="relative py-40">
         <div className="relative flex flex-col items-center gap-6 z-10 min-h-[300px] px-6 md:px-12">
           <p className="rounded-full px-3 py-[6px]  m-auto text-home-1a text-sm"></p>
@@ -114,7 +114,7 @@ const DataResource = () => {
             </div>
           </div>
         </div>
-        <div className="outer absolute -top-[50px] w-full flex items-center justify-center overflow-hidden ">
+        <div className="outer absolute -top-[50px] w-full flex items-center justify-center  ">
           <div className="relative w-[740px] h-[740px] rotate360deg">
             <div className="w-[692px] h-[692px] rounded-full translate-y-6 md:translate-x-6 translate-x-0 border border-home-4"></div>
             <div className="w-[740px] flex justify-between absolute rotate-[30deg] top-[47%] md:left-0 -left-[24px]">
