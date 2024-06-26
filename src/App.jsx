@@ -14,15 +14,17 @@ import HubIcon from "./components/HubIcon";
 import LetOurAI from "./components/LetOurAI";
 import MainCards from "./components/MainCards";
 import Navbar from "./components/Navbar";
+import NewNav from "./components/NewNav";
 function App() {
 
   return (
     <>
+      <NewNav/>
       <Navbar />
       <main className="main">
         <Heading />
         <div className="w-full flex justify-center">
-          <img className="mainImg" src={mainImg} alt="" srcset="" />
+          <img className="mainImg" src={mainImg} alt="" />
         </div>
       </main>
       <AiDrivenSection />
@@ -34,7 +36,7 @@ function App() {
       <DataResource />
       <BookACall />
       <Footer />
-      <HubIcon/>
+      <HubIcon />
     </>
   );
 }
