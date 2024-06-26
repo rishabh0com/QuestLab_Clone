@@ -14,7 +14,7 @@
   box-shadow: -1px -1px 50.3px -1px #9035ffbf;
   padding: 16px;
   box-sizing: border-box;
-  z-index: 1;
+  z-index: 100;
   position: fixed;
   bottom: 2%;
   right: 2%;
