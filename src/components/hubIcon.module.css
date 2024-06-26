@@ -1,0 +1,21 @@
+.hubIconDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  width: 64px;
+  transition: transform 0.3s cubic-bezier(1, -1.85, 0, 2.18);
+  cursor: pointer;
+  border-radius: 56px;
+  background: var(
+    --Primary,
+    linear-gradient(84deg, #9035ff 0.36%, #0065ff 100.36%)
+  );
+  box-shadow: -1px -1px 50.3px -1px #9035ffbf;
+  padding: 16px;
+  box-sizing: border-box;
+  z-index: 1;
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+}

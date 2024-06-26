@@ -1,0 +1,40 @@
+.sliderCardTrack {
+  animation: scroll 30s linear infinite;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  width: 3500px;
+  white-space:no-wrap;
+}
+.sliderCardTrack:hover{
+     animation-play-state: paused;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-60%);
+    animation-fill-mode: backwards;
+  }
+}
+
+.sliderCard {
+  box-shadow: 0 10px 20px -5px #00000020;
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  overflow: hidden;
+  position: relative;
+  max-width: 1400px;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgb(0, 0, 0) 12.5%,
+    rgb(0, 0, 0) 87.5%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  mask-image: linear-gradient(to right, #0000, #000 12.5%, #000 87.5%, #0000);
+}

@@ -6,6 +6,9 @@
   box-sizing: border-box;
   transition: all 0.3s ease;
 }
+html{
+  max-width: 100vw;
+}
 body {
   background-color: #121212;
   max-width: 100%;
@@ -23,3 +26,4 @@ body {
 .mainImg {
   margin-top: 50px;
 }
+
