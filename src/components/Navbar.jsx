@@ -9,12 +9,10 @@ const Navbar = () => {
 
   const screenWidth = window.innerWidth;
   return (
-    <div
-    style={style}
-    >
+    <div style={style}>
       <nav className=" w-full px-5 lg:px-[100px] h-fit py-6 fixed flex justify-between top-0 z-50  rounded- text-white backdrop-blur-3xl">
-              <div className="flex items-center w-1/3">
-                  <img src={logo} alt="" width={"22px"} />
+        <div className="flex items-center w-1/3">
+          <img src={logo} alt="" width={"22px"} />
           <span className="ml-1 font-extrabold text-2xl">Quest</span>
           <div className="ml-4 text-white font-bold text-xl"></div>
         </div>
@@ -44,9 +42,13 @@ const Navbar = () => {
                 <button className=" bg-transparent border  px-4 py-2 rounded-md hover:bg-gray-200">
                   Get Started
                 </button>
-                <button className="bg-gradient-to-l from-purple-600  to-blue-600 text-white px-4 py-2 rounded-md hover:shadow-md">
-                  Book Demo
-                </button>
+                <a
+                  href="https://calendly.com/shubham-quest/chat"
+                  target="_blank">
+                  <button className="bg-gradient-to-l from-purple-600  to-blue-600 text-white px-4 py-2 rounded-md hover:shadow-md">
+                    Book Demo
+                  </button>
+                </a>
               </div>
             </div>
           </>
