@@ -31,7 +31,7 @@ const Features = () => {
         </p>
       </div>
       <div
-        className=" flex flex-col md:flex-row gap-6 w-full  m-auto max-w-[1200px]"
+        className=" flex flex-col md:flex-row gap-6 w-full  p-10  m-auto max-w-[1200px]"
         style={{ opacity: "1", transform: "none" }}>
         <div className="w-full md:w-[42%] relative rounded-[24px] border border-[rgba(201,201,201,0.12)] bg-[#202020] flex flex-col justify-between">
           <div className="">
@@ -63,7 +63,7 @@ const Features = () => {
         </div>
       </div>
       <div
-        className="w-full max-w-[1200px] m-auto flex flex-col md:flex-row gap-6 mt-6"
+        className="w-full max-w-[1200px] p-10 m-auto flex flex-col md:flex-row gap-6 mt-6"
         style={{ opacity: "1", transform: "none" }}>
         <div className="rounded-3xl border-[rgba(201,201,201,0.12)] bg-[#202020] w-full md:w-1/3">
           <div className="rounded-3xl">

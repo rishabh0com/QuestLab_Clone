@@ -1,4 +1,5 @@
 import DynamicContent from "./DynamicContent";
+import NewDynamicContent from "./NewDynamicContent";
 
 const DynamicIntelligent = () => {
   return (
@@ -15,6 +16,8 @@ const DynamicIntelligent = () => {
       </p>
       {}
       <DynamicContent />
+      { }
+      <NewDynamicContent/>
     </div>
   );
 };
