@@ -1,11 +1,10 @@
-import React from "react";
-import rightBg from "../assets/featuresImg/rightBg.svg";
-import leftBg from "../assets/featuresImg/leftBg.svg";
-import upper1 from "../assets/featuresImg/upper1.svg";
-import upper2 from "../assets/featuresImg/upper2.svg";
-import lower1 from "../assets/featuresImg/lower1.svg";
-import lower2 from "../assets/featuresImg/lower2.svg";
-import lower3 from "../assets/featuresImg/lower3.svg";
+import rightBg from "../../assets/featuresImg/rightBg.svg";
+import leftBg from "../../assets/featuresImg/leftBg.svg";
+import upper1 from "../../assets/featuresImg/upper1.svg";
+import upper2 from "../../assets/featuresImg/upper2.svg";
+import lower1 from "../../assets/featuresImg/lower1.svg";
+import lower2 from "../../assets/featuresImg/lower2.svg";
+import lower3 from "../../assets/featuresImg/lower3.svg";
 
 const Features = () => {
   return (

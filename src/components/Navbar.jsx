@@ -1,7 +1,8 @@
-import React from "react";
+import "./navbar.css"
 import { useContext } from "react";
 import { NavContext } from "../contexts/NavContext";
 import logo from "../assets/whiteLogo.svg";
+import ResourceDD from "./ResourceDD";
 
 const Navbar = () => {
   const { isOpen, toggleNav } = useContext(NavContext);
@@ -25,10 +26,11 @@ const Navbar = () => {
                     Playbook
                   </a>
                 </li>
-                <li>
-                  <a href="#" className="hover:underline">
+                <li className="resource">
+                  <a href="#" className="resource ">
                     Resources
                   </a>
+                  <ResourceDD/>
                 </li>
                 <li>
                   <a href="#" className="hover:underline">

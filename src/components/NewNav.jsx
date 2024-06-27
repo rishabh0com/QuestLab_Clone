@@ -2,7 +2,7 @@ import React from "react";
 import { NavContext } from "../contexts/NavContext";
 import { useContext } from "react";
 import whiteLogo from "../assets/whiteLogo.svg";
-import "./newNav.css";
+
 
 const NewNav = () => {
   const { isOpen, toggleNav, resOpen, toggleRes } = useContext(NavContext);

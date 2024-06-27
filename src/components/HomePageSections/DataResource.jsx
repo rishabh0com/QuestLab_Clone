@@ -1,25 +1,24 @@
-import React from "react";
 import "./dataResource.css";
-import inner1 from "../assets/dataResourceIcon/inner1.svg";
-import inner2 from "../assets/dataResourceIcon/inner2.svg";
-import inner3 from "../assets/dataResourceIcon/inner3.svg";
-import inner4 from "../assets/dataResourceIcon/inner4.svg";
-import inner5 from "../assets/dataResourceIcon/inner5.png";
-import inner6 from "../assets/dataResourceIcon/inner6.svg";
-import inner7 from "../assets/dataResourceIcon/inner7.svg";
-import inner8 from "../assets/dataResourceIcon/inner8.svg";
-import outer1 from "../assets/dataResourceIcon/outer1.svg";
-import outer2 from "../assets/dataResourceIcon/outer2.svg";
-import outer3 from "../assets/dataResourceIcon/outer3.svg";
-import outer4 from "../assets/dataResourceIcon/outer4.svg";
-import outer5 from "../assets/dataResourceIcon/outer5.svg";
-import outer6 from "../assets/dataResourceIcon/outer6.svg";
-import outer7 from "../assets/dataResourceIcon/outer7.svg";
-import outer8 from "../assets/dataResourceIcon/outer8.svg";
-import outer9 from "../assets/dataResourceIcon/outer9.svg";
-import outer10 from "../assets/dataResourceIcon/outer10.svg";
-import outer11 from "../assets/dataResourceIcon/outer11.svg";
-import outer12 from "../assets/dataResourceIcon/outer12.svg";
+import inner1 from "../../assets/dataResourceIcon/inner1.svg";
+import inner2 from "../../assets/dataResourceIcon/inner2.svg";
+import inner3 from "../../assets/dataResourceIcon/inner3.svg";
+import inner4 from "../../assets/dataResourceIcon/inner4.svg";
+import inner5 from "../../assets/dataResourceIcon/inner5.png";
+import inner6 from "../../assets/dataResourceIcon/inner6.svg";
+import inner7 from "../../assets/dataResourceIcon/inner7.svg";
+import inner8 from "../../assets/dataResourceIcon/inner8.svg";
+import outer1 from "../../assets/dataResourceIcon/outer1.svg";
+import outer2 from "../../assets/dataResourceIcon/outer2.svg";
+import outer3 from "../../assets/dataResourceIcon/outer3.svg";
+import outer4 from "../../assets/dataResourceIcon/outer4.svg";
+import outer5 from "../../assets/dataResourceIcon/outer5.svg";
+import outer6 from "../../assets/dataResourceIcon/outer6.svg";
+import outer7 from "../../assets/dataResourceIcon/outer7.svg";
+import outer8 from "../../assets/dataResourceIcon/outer8.svg";
+import outer9 from "../../assets/dataResourceIcon/outer9.svg";
+import outer10 from "../../assets/dataResourceIcon/outer10.svg";
+import outer11 from "../../assets/dataResourceIcon/outer11.svg";
+import outer12 from "../../assets/dataResourceIcon/outer12.svg";
 
 const DataResource = () => {
   return (

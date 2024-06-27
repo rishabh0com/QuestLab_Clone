@@ -1,10 +1,9 @@
-import React from "react";
-import img1 from "../assets/mainCardIcons/oneI.svg";
-import img2 from "../assets/mainCardIcons/twoI.svg";
-import img3 from "../assets/mainCardIcons/threeI.svg";
-import img4 from "../assets/mainCardIcons/fourI.svg";
-import img5 from "../assets/mainCardIcons/fiveI.svg";
-import img6 from "../assets/mainCardIcons/sixI.svg";
+import img1 from "../../assets/mainCardIcons/oneI.svg";
+import img2 from "../../assets/mainCardIcons/twoI.svg";
+import img3 from "../../assets/mainCardIcons/threeI.svg";
+import img4 from "../../assets/mainCardIcons/fourI.svg";
+import img5 from "../../assets/mainCardIcons/fiveI.svg";
+import img6 from "../../assets/mainCardIcons/sixI.svg";
 
 const MainCards = () => {
   return (

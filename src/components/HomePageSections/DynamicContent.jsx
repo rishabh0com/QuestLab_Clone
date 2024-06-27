@@ -1,11 +1,11 @@
 import React, { useEffect, useRef, useState } from "react";
-import dynamicBg from "../assets/dynamicBg.svg";
-import useImg1 from "../assets/dynamicImages/useCase1.svg";
-import useImg2 from "../assets/dynamicImages/useCase2.svg";
-import useImg3 from "../assets/dynamicImages/useCase3.svg";
-import useImg4 from "../assets/dynamicImages/useCase4.svg";
-import useImg5 from "../assets/dynamicImages/useCase5.svg";
-import useImg6 from "../assets/dynamicImages/useCase6.svg";
+import dynamicBg from "../../assets/dynamicBg.svg";
+import useImg1 from "../../assets/dynamicImages/useCase1.svg";
+import useImg2 from "../../assets/dynamicImages/useCase2.svg";
+import useImg3 from "../../assets/dynamicImages/useCase3.svg";
+import useImg4 from "../../assets/dynamicImages/useCase4.svg";
+import useImg5 from "../../assets/dynamicImages/useCase5.svg";
+import useImg6 from "../../assets/dynamicImages/useCase6.svg";
 import { dynamicDataHeading, dynamicDataPara } from "./dynamicData";
 
 const DynamicContent = () => {
@@ -20,8 +20,8 @@ const DynamicContent = () => {
     // console.log(i.current, useCaseImages[i.current]);
   };
   const stopUpdate = (curr) => {
-    console.log(curr, i.current, "stop")
-    i.current = curr == 0? 5 : curr - 1;
+    console.log(curr, i.current, "stop");
+    i.current = curr == 0 ? 5 : curr - 1;
     // console.log(i.current)
   };
   useEffect(() => {

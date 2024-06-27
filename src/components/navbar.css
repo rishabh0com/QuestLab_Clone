@@ -1,0 +1,28 @@
+.dropdownC {
+  background-color: #292929;
+  box-shadow: 0 4px 8px #0000001a;
+  border-radius: 5px;
+  backdrop-filter: blur(20px);
+  position: absolute;
+  left: 47%;
+}
+.resource  .dropdownC {
+  display: none;
+}
+
+.resource:hover  .dropdownC {
+  display: block;
+ 
+}
+.dropdownC:hover{
+    display: block;
+    
+}
+
+/* backgroundColor: "#292929",
+    boxShadow: "0 4px 8px #0000001a",
+    borderRadius: "5px",
+    backdropFilter: "blur(20px)",
+    animation: "fadeIn .3s ease-in-out",
+    position: "absolute",
+    left: "48%", */

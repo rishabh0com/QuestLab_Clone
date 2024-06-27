@@ -1,10 +1,10 @@
 import React from "react";
 import "./appCard.css"
-import one from "../assets/cardImages/one.svg";
-import four from "../assets/cardImages/four.svg";
-import six from "../assets/cardImages/six.svg";
-import seven from "../assets/cardImages/seven.svg";
-import eight from "../assets/cardImages/eight.svg";
+import one from "../../assets/cardImages/one.svg";
+import four from "../../assets/cardImages/four.svg";
+import six from "../../assets/cardImages/six.svg";
+import seven from "../../assets/cardImages/seven.svg";
+import eight from "../../assets/cardImages/eight.svg";
 const AppCard = () => {
   const imgArr = [one, four, six, seven, eight];
   const Card = ({ src }) => {

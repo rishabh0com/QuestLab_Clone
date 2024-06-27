@@ -1,6 +1,5 @@
-import React from "react";
-import upperImg from "../assets/letAiImages/upper.svg"
-import lowerImg from "../assets/letAiImages/lower.svg"
+import upperImg from "../../assets/letAiImages/upper.svg"
+import lowerImg from "../../assets/letAiImages/lower.svg"
 
 const LetOurAI = () => {
   return (

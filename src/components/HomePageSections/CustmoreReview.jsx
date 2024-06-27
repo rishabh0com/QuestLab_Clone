@@ -1,11 +1,10 @@
-import React from "react";
 import "./customerReview.css";
-import sonxP from "../assets/customer/sonxProfile.png";
-import sonxI from "../assets/customer/sonxIcon.svg";
-import persanaP from "../assets/customer/persanaProfile.jpg";
-import persanaI from "../assets/customer/persanaIcon.png";
-import bitazzaP from "../assets/customer/bitazzaProfile.jpg";
-import bitazzaI from "../assets/customer/bitazzaIcon.svg";
+import sonxP from "../../assets/customer/sonxProfile.png";
+import sonxI from "../../assets/customer/sonxIcon.svg";
+import persanaP from "../../assets/customer/persanaProfile.jpg";
+import persanaI from "../../assets/customer/persanaIcon.png";
+import bitazzaP from "../../assets/customer/bitazzaProfile.jpg";
+import bitazzaI from "../../assets/customer/bitazzaIcon.svg";
 
 const CustmoreReview = () => {
   return (

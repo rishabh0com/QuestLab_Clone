@@ -1,12 +1,12 @@
 import React from "react";
 import AppCard from "./AppCard";
-import logoWithLine from "../assets/logoWithLine.svg";
+import logoWithLine from "../../assets/logoWithLine.svg";
 import "./aiDriven.css";
 // import { ai1, ai2, ai3, ai4 } from "../assets/aiDrivenImage";
-import ai1 from "../assets/aiDrivenImage/ai1.svg";
-import ai2 from "../assets/aiDrivenImage/ai2.svg";
-import ai3 from "../assets/aiDrivenImage/ai3.svg";
-import ai4 from "../assets/aiDrivenImage/ai4.svg";
+import ai1 from "../../assets/aiDrivenImage/ai1.svg";
+import ai2 from "../../assets/aiDrivenImage/ai2.svg";
+import ai3 from "../../assets/aiDrivenImage/ai3.svg";
+import ai4 from "../../assets/aiDrivenImage/ai4.svg";
 
 const AiDrivenSection = () => {
   return (

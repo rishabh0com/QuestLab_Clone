@@ -1,4 +1,3 @@
-import React from "react";
 import DynamicContent from "./DynamicContent";
 
 const DynamicIntelligent = () => {
@@ -14,8 +13,8 @@ const DynamicIntelligent = () => {
       <p className=" text-center text-[14px] lg:text-[18px]  font-normal leading-[28px] text-[#B9B9B9] font-[Figtree]  mt-4 m-auto mb-12">
         50+ Pre-Built In-app Components to get started within minutes
       </p>
-          { }
-          <DynamicContent/>
+      {}
+      <DynamicContent />
     </div>
   );
 };

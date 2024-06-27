@@ -1,7 +1,7 @@
 import React from "react";
-import leftBg from "../assets/BookACall/leftBg.svg";
-import rightBg from "../assets/BookACall/rightBg.svg";
-import centerBg from "../assets/BookACall/centerBg.svg";
+import leftBg from "../../assets/BookACall/leftBg.svg";
+import rightBg from "../../assets/BookACall/rightBg.svg";
+import centerBg from "../../assets/BookACall/centerBg.svg";
 
 const BookACall = () => {
   return (
