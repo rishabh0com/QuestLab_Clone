@@ -22,7 +22,7 @@ const Home = () => {
       <Navbar />
       <main className="main">
         <Heading />
-        <div className="w-full flex justify-center">
+        <div className="w-full flex justify-center px-2">
           <img className="mainImg" src={mainImg} alt="" />
         </div>
       </main>
