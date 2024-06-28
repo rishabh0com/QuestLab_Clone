@@ -18,7 +18,7 @@ const CustmoreReview = () => {
       <div className="text-center text-white font-figtree text-3xl lg:text-4xl font-medium leading-[46px] tracking-tight lg:w-[468px] w-[350px] m-auto mb-14 ">
         Trust our customers
       </div>
-      <div className="sliderCardTrack">
+      <div className="sliderCardTrack p-10">
         <div className="w-[626px]   bg-[#18171e] border-[#ffffff12] border-[1px] rounded-[16px]">
           <div className=" py-[40px] px-[32px] flex flex-col justify-between h-full">
             <div className=" ">

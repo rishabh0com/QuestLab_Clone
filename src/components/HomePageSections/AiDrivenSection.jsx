@@ -22,8 +22,11 @@ const AiDrivenSection = () => {
           with your data stack for a tailored user experience
         </p>
       </div>
+      {/* <div className="md:hidden">
+        <AppCard />
+      </div> */}
       {}
-      <div className="product-map hidden  md:flex items-center justify-center flex-col">
+      <div className="product-map hidden  md:flex items-center justify-center flex-col p-10">
         <AppCard />
         <div className="relative">
           <img src={logoWithLine} alt="logoWithLine" />

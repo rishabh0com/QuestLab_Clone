@@ -15,9 +15,11 @@ const DynamicIntelligent = () => {
         50+ Pre-Built In-app Components to get started within minutes
       </p>
       {}
-      <DynamicContent />
-      { }
-      <NewDynamicContent/>
+      <div className="p-10">
+        <DynamicContent />
+      </div>
+      {}
+      <NewDynamicContent />
     </div>
   );
 };

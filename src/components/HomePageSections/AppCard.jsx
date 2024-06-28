@@ -1,12 +1,15 @@
 import React from "react";
 import "./appCard.css"
 import one from "../../assets/cardImages/one.svg";
+import two from "../../assets/dataResourceIcon/outer11.svg"
+import three from "../../assets/dataResourceIcon/outer2.svg"
 import four from "../../assets/cardImages/four.svg";
+import five from "../../assets/dataResourceIcon/outer12.svg";
 import six from "../../assets/cardImages/six.svg";
 import seven from "../../assets/cardImages/seven.svg";
 import eight from "../../assets/cardImages/eight.svg";
 const AppCard = () => {
-  const imgArr = [one, four, six, seven, eight];
+  const imgArr = [one,two,three, four,five, six, seven, eight];
   const Card = ({ src }) => {
     return (
       <div className="appCard w-16 h-16 p-3  bg-zinc-800">

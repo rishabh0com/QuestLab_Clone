@@ -17,9 +17,9 @@ const Navbar = () => {
           <span className="ml-1 font-extrabold text-2xl">Quest</span>
           <div className="ml-4 text-white font-bold text-xl"></div>
         </div>
-        {screenWidth >= "1024" ? (
+        
           <>
-            <div className="flex items-center justify-center w-1/3  ">
+            <div className="hidden lg:flex items-center justify-center w-1/3">
               <ul className="flex space-x-6 text-white">
                 <li>
                   <a href="#" className="hover:underline">
@@ -39,8 +39,8 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <div className="  flex justify-end w-1/3 ">
-              <div className="ml-6 space-x-4 flex ">
+            <div className=" hidden lg:flex justify-end w-1/3 ">
+              <div className="ml-6  space-x-4 flex ">
                 <button className=" bg-transparent border  px-4 py-2 rounded-md hover:bg-gray-200">
                   Get Started
                 </button>
@@ -54,13 +54,13 @@ const Navbar = () => {
               </div>
             </div>
           </>
-        ) : (
+      
           <h1
             onClick={() => toggleNav()}
-            className="rotate-90 font-extrabold text-2xl cursor-pointer">
+            className="lg:hidden rotate-90 font-extrabold text-2xl cursor-pointer">
             |||
           </h1>
-        )}
+        
       </nav>
     </div>
   );
