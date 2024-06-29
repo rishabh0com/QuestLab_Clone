@@ -88,7 +88,7 @@ const NewNav = () => {
               className="rounded-full font-semibold text-white flex lg:hidden"
               onClick={toggleNav}
               id="openPopupButton">
-              <i class="ri-close-large-fill"></i>
+              <i className="ri-close-large-fill"></i>
             </button>
           </div>
           <div className="dropdown-contents flex-col justify-center gap-6 items-center menuOpen">
@@ -103,7 +103,7 @@ const NewNav = () => {
                 onClick={() => toggleRes()}
                 className="px-3 py-[6px] text-white cursor-pointer w-full text-center relative flex justify-center items-center gap-2">
                 <p>Resources</p>
-                <i class="ri-arrow-down-s-line"></i>
+                <i className="ri-arrow-down-s-line"></i>
               </div>
               <div
                 className="dropDownContainer w-full p-6 right-0 left-[calc(50%-96px)]  text-white rounded-2xl"

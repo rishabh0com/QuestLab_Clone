@@ -49,3 +49,23 @@
     margin-top: 165px;
     gap: 24px;
 } */
+
+@media (max-width: 768px) {
+  .appCount {
+    padding: 10px;
+    gap: 5px;
+    width: 100%;
+  }
+  .appCard {
+    width: 30px;
+    height: 30px;
+    padding: 9.556px 9.556px 9.555px 9.556px;
+    border-radius: 8.41px;
+  }
+  .menuItem {
+    padding: 2px;
+    gap: 6px;
+    font-size: 10px;
+    border-radius: 4px;
+  }
+}

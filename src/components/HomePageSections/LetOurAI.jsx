@@ -14,6 +14,13 @@ const LetOurAI = () => {
         </p>
       </div>
       {}
+      <div className="flex lg:hidden justify-center gap-6 flex-col mb-2">
+        <div className="w-full p-0 md:p-12 relative overflow-hidden">
+          <img src={upperImg} alt="" className="w-full " />
+        </div>
+      </div>
+
+      {}
       <div className="">
         <div className=" lg:pt-0 pt-10">
           <div
@@ -59,6 +66,7 @@ const LetOurAI = () => {
             </div>
           </div>
         </div>
+
         <div className=" lg:pt-0 pt-10">
           <div
             className="hidden lg:flex justify-center items-center  flex-row-reverse  mt-16"

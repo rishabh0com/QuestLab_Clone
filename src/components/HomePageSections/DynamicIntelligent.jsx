@@ -3,7 +3,7 @@ import NewDynamicContent from "./NewDynamicContent";
 
 const DynamicIntelligent = () => {
   return (
-    <div className="px-6 lg:px-10 py-20">
+    <div className="px-6 lg:px-10 lg:py-15">
       <p className=" text-center text-[14px] lg:text-[18px]  font-normal leading-[28px] text-[#B9B9B9] font-[Figtree]  mt-4 m-auto">
         Dynamic &amp; Intelligent experiences
       </p>

@@ -7,11 +7,13 @@ import ai1 from "../../assets/aiDrivenImage/ai1.svg";
 import ai2 from "../../assets/aiDrivenImage/ai2.svg";
 import ai3 from "../../assets/aiDrivenImage/ai3.svg";
 import ai4 from "../../assets/aiDrivenImage/ai4.svg";
+import NewDynamicContent from "./NewDynamicContent";
+import NewAiDriven from "./NewAiDriven";
 
 const AiDrivenSection = () => {
   return (
     <div
-      className="p-5 lg:p-[80px_120px] md:p-0 sm:p-0 text-white"
+      className="p-2 lg:p-[80px_120px] md:p-0 sm:p-0 text-white"
       style={{ opacity: "1", transform: "none" }}>
       <div className=" m-auto flex flex-col gap-4 mb-[48px]">
         <p className="text-white text-center font-medium text-[30px] lg:text-5xl leading-[40px] lg:leading-[56px] -tracking-[0.96px] font-figtree m-auto">
@@ -25,7 +27,9 @@ const AiDrivenSection = () => {
       {/* <div className="md:hidden">
         <AppCard />
       </div> */}
-      {}
+      { }
+     <NewAiDriven/>
+      { }
       <div className="product-map hidden  md:flex items-center justify-center flex-col p-10">
         <AppCard />
         <div className="relative">
