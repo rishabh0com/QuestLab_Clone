@@ -2,11 +2,11 @@ import React from "react";
 import { NavContext } from "../contexts/NavContext";
 import { useContext } from "react";
 import whiteLogo from "../assets/whiteLogo.svg";
-
+import { Link } from "react-router-dom";
 
 const NewNav = () => {
   const { isOpen, toggleNav, resOpen, toggleRes } = useContext(NavContext);
-  console.log(isOpen, toggleNav);
+  // console.log(isOpen, toggleNav);
   const style = { display: isOpen ? "block" : "none" };
   const resStyle = {
     display: resOpen ? "block" : "none",
@@ -142,7 +142,7 @@ const NewNav = () => {
             </a>
             <a href="https://calendly.com/shubham-quest/chat" target="_blank">
               <button
-                className="rounded-md py-3 px-5 text-white font-semibold w-full duration-300"
+                className="bookDemo rounded-md py-2 px-4 text-white font-semibold w-full duration-300"
                 style={{
                   background:
                     "linear-gradient(transparent, transparent) padding-box, linear-gradient(to left, rgba(33, 117, 243, 0.82), rgba(144, 53, 255, 0.835), rgba(144, 53, 255, 0.843)) border-box",
@@ -151,6 +151,12 @@ const NewNav = () => {
                 Book Demo
               </button>
             </a>
+            <Link to="/login">
+              <button className="bg-transparent border-1 mt-2 text-white border-purple-600  px-4 py-2 rounded-md hover:bg-gray-200 w-full">
+                {" "}
+                Get Started
+              </button>
+            </Link>
           </div>
         </div>
       </div>

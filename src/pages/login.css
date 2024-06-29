@@ -1,0 +1,7 @@
+.left{
+    background: url(../assets/loginBg.png) no-repeat fixed left;
+    background-size: contain;
+    background-repeat: repeat-y;
+    background-position: top;
+    background-position: left;
+}
