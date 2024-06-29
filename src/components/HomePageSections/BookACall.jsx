@@ -32,11 +32,17 @@ const BookACall = () => {
         <p className="text-sm lg:text-lg text-[#E0E0E0] text-center mt-4">
           Create your account for free or book a demo today!
         </p>
-        <button
-                  className="bg-gradient-to-r from-[#9035FF] to-[#6144FF] p-[8px_12px] rounded-[4px]  text-white font-semibold text-sm leading-[20px] mt-7 font-figtree "
-                  style={{ background: "linear-gradient(transparent, transparent) padding-box, linear-gradient(to left, rgb(0, 101, 255), rgb(144, 53, 255), rgb(144, 53, 255)) border-box", border: "1px solid rgba(0, 0, 0, 0)" }}>
-          Book a Call Today!
-        </button>
+        <a href="https://calendly.com/shubham-quest/chat">
+          <button
+            className="bg-gradient-to-r from-[#9035FF] to-[#6144FF] p-[8px_12px] rounded-[4px]  text-white font-semibold text-sm leading-[20px] mt-7 font-figtree "
+            style={{
+              background:
+                "linear-gradient(transparent, transparent) padding-box, linear-gradient(to left, rgb(0, 101, 255), rgb(144, 53, 255), rgb(144, 53, 255)) border-box",
+              border: "1px solid rgba(0, 0, 0, 0)",
+            }}>
+            Book a Call Today!
+          </button>
+        </a>
       </div>
     </div>
   );

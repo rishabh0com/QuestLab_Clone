@@ -17,7 +17,7 @@ const NewNav = () => {
   };
 
   return (
-    <div style={style}>
+    <div style={style} onClick={toggleNav}>
       <div className=" w-full lg:px-[100px] h-fit py-6 fixed flex align-middle top-0 z-50  bg-[#0D0D0D] rounded-b-2xl   backdrop-blur-3xl">
         <div
           className=" w-[1440px] backdrop-blur-sm nav-box  px-5 rounded-b-xl  m-auto  flex flex-col relative boxOpen"
@@ -67,7 +67,7 @@ const NewNav = () => {
                 </div>
               </div>
               <div className="text-white text-center font-medium text-sm leading-[20px] font-figtree">
-                <a href="/blog">Blogs</a>
+                <Link to="/blog">Blogs</Link>
               </div>
             </div>
             <div className="hidden lg:flex items-center gap-6">
@@ -92,12 +92,12 @@ const NewNav = () => {
             </button>
           </div>
           <div className="dropdown-contents flex-col justify-center gap-6 items-center menuOpen">
-            <a
+            <Link
               style={{ display: "block" }}
               className="px-3 py-[6px] text-white w-full text-center"
-              href="/playbook">
+              to="/playbook">
               Playbook
-            </a>
+            </Link>
             <div className="resourceContainer w-full">
               <div
                 onClick={() => toggleRes()}
